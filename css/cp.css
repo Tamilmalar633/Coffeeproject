@@ -1,0 +1,581 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+  border: none;
+}
+
+.display-inlineblock {
+  display: inline-block;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.border {
+  border: none;
+}
+
+.white-font {
+  color: white;
+}
+
+.black-font {
+  color: black;
+}
+
+.orange-font {
+  color:#f76d37;
+}
+
+.textleft {
+  text-align: left;
+}
+
+.textright {
+  text-align: right;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.bg-black {
+  background:black;
+}
+.bg-orange{
+  background-color:#f76d37;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited{
+  color: white;
+  background-color: transparent;
+  text-decoration: dashed;
+}
+
+a:hover {
+  color:#f76d37;
+  background-color: transparent;
+}
+
+.colorchange {
+  /*hover orange part*/
+  background-color: transparent;
+  text-decoration: dashed;
+}
+
+.colorchange:hover {
+  color: white;
+  background-color:#f76d37;
+}
+
+
+/* header part*/
+.header {
+  width: 100%;
+  margin-bottom: 35px;
+
+}
+
+.header1 {
+  width: 30%;
+  padding: 25px 35px;
+}
+
+
+.header2 {
+  width: 41%;
+  margin: 0px 0px 0px 0px;
+  padding: 23px 0px;
+
+}
+
+.head-anchor {
+  width: auto;
+  margin:  0px 0px 0px 10px;
+  font-size: 18px;
+}
+.svg-size{
+  width: 20px;
+  background-color: transparent;
+  padding: 2px;
+  background-repeat: no-repeat;
+ 
+}
+
+.svg-size svg {
+  fill: white;
+  height: 25px;
+  width: 31px;
+ padding: 0px;
+ margin-top: 2px;
+
+}
+.svg {
+  color: white;
+}
+
+.svg:hover {
+  fill:#f76d37;
+  background-color: transparent;
+}
+
+
+
+.content {
+  /*body content*/
+  width: 70%;
+}
+
+.bodybox {
+  width: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(../images/banner-bg.png);
+}
+
+
+.outstandingbox {
+  margin:auto;
+  width: 53%;
+  font-size: 60px;
+  padding: 110px 0px 0px 65px;
+}
+
+.coffee_shop {
+  
+  width: 70%;
+  font-size: 35px;
+  padding: 6px 0px 0px 65px;
+}
+
+.home-content {
+  width: 72%;
+  font-size: 16px;
+  padding: 5px 0px 0px 65px;
+}
+
+button {
+  /*Button learn more*/
+  width: 15%;
+  background-color: black;
+  margin: 11px 0px 5px 35px;
+  padding:  15px 40px;
+  font-size: 14px;
+  position: relative;
+  top: 20px; left:20px ;
+}
+
+button:hover {
+  background-color: orangered;
+}
+.arrowboxes{
+  width: auto;
+  background-color:transparent;
+  margin: 0px 0px 19px 35px;
+  position: relative;
+  top: 31px;
+  left: 277px;
+}
+.arrowbox { /*arrowboxes*/
+  
+  width: 47px;
+  margin:  25px 0px 35px 35px;
+  background-color: white;
+  font-size: 31px;
+ font-family: 'Times New Roman', Times, serif;
+}
+
+.arrowbox1 {
+  margin: 25px 0px 35px 16px;
+}
+
+/*Home page fiished*/
+
+/* about us */
+
+.aboutbox {
+  width: 50%;
+ margin-top: 35px;
+ padding:90px 0px 60px 50px ;
+ margin-left:20px;
+ 
+ }
+
+.aboutbox1 {
+  width: 50%;
+  margin: 35px 0px 10px 10px;
+  padding-top: 90px;
+  font-size: 20px;
+  font-weight:300;
+}
+
+.aboutbox2 {
+  width: 85%;
+  margin: 2px 0px 10px 10px;
+  font-weight:200;
+}
+.aboutbox4 {
+  width: 30%;
+  margin-top:35px;
+  padding: 80px 0px 0px 0px;
+}
+
+.button2 {
+  width: 35%;
+  background-color: black;
+  padding: 15px 40px;
+  font-size: 15px;
+  position: relative;
+  top:32px; left: -36px;
+}
+
+.button2:hover {
+  background-color: orangered;
+}
+
+
+/* about us  finished*/
+
+/* Gallery */
+.gallerybox {
+  width: 94%;
+  font-size: larger;
+  padding: 8% 0% 3% 0%;
+  margin: 8px 0px 0px 31px;
+}
+
+.gallerybox1 {
+  width: 93%;
+  padding: 1% 2% ;
+  margin: 0px 0px 3px 35px;
+}
+
+.gallerybox2 {
+  width: 93%;
+  padding: 1% 2% ;
+  margin: 0px 0px 3px 35px;
+}
+
+
+.galleryimg {
+  width: 31%;
+  padding: 23% 0% 5% 0%;
+  margin: 1%;
+}
+
+.galleryimgbg1 {
+  background-image: url(../images/img-1.png);
+}
+
+.galleryimgbg2 {
+  background-image: url(../images/img-2.png);
+}
+
+.galleryimgbg3 {
+  background-image: url(../images/img-3.png);
+}
+
+.galleryimgbg4 {
+  background-image: url(../images/img-4.png);
+}
+
+.galleryimgbg5 {
+  background-image: url(../images/img-5.png);
+}
+
+.galleryimgbg6 {
+  background-image: url(../images/img-6.png);
+}
+
+.galleryimgbg7 {
+  background-image: url(../images/img-7.png);
+}
+
+.galleryimgbg8 {
+  background-image: url(../images/img-8.png);
+}
+
+.galleryimgbg9 {
+  background-image: url(../images/img-9.png);
+}
+
+.button3 {
+  width: 15%;
+  background-color: black;
+  margin: 10px 0px 35px 35px;
+  padding: 15px 40px;
+  font-size: 16px;
+  position: relative;
+  top: 14px; left: 494px;
+}
+.button3:hover {
+  background-color: orangered;
+}
+
+/* Gallery finished*/
+
+/* service page*/
+
+
+.bodybox-service{
+  width: 100%;
+  padding: 90px 10px;
+  margin-top: 35px;
+  background-image: url(../images/services-bg.png);
+  }
+
+  .servicebox {
+    width: 94%;
+    padding-top: 7px; 
+    margin: 35px 0px 0px 27px;
+  }
+  
+  .servicebox1 {
+    width: 94%;
+    padding: 12px;
+    margin: 30px 0px 0px 24px
+  }
+  
+  .servicebox3 {
+    width: 30%;
+    background-color: orangered;
+    padding: 4px;
+    margin: 35px 7px 0px 24px ;
+    color: white;
+  }
+  .servicebox3:hover{
+    background-color: white;
+    color: black;
+  }
+  
+  .sbox1 {
+    width: 90%;
+    padding: 1px;
+    margin: 4px 0px 9px 3px;
+    font-size: 15px;
+  }
+  
+  .sbox2 {
+    width: 98%;
+    padding: 1px;
+    margin: 3px 0px 16px 3px;
+  }
+  
+  .coffee-icon {
+    width: 280px;
+    background-color:transparent;
+    padding: 15px;
+    margin: 5px 0px 0px 35px;
+  }
+  /* hide property*/
+  
+   .button5 {
+    display: none;
+    width: 60%;
+    background-color: black;
+    margin: 21px 0px 35px 30px;
+    padding: 15px 40px;
+    font-size: 16px;
+    color: white;
+  }
+  .button5:hover{
+    background-color: black;
+    color: white;
+  }
+  
+  .servicebox3:hover button{
+    display: block;
+  
+  }
+
+
+
+/* service end*/
+
+/* Testimonial */
+.test {
+  width: 100%;
+  padding: 0px;
+  margin: 20px 0px 0px;
+  background-color: white;
+
+}
+
+.testi-textbox {
+  width: 30%;
+  margin: 35px 0px 0px 0px;
+  font-size: 20px;
+  padding-top: 60px;
+
+}
+
+.testi-para {
+  width: 80%;
+  padding: 32px;
+  margin: 0px 0px 0px 35px;
+
+}
+
+.tesicontent {
+  width: 90%;
+  padding: 0px;
+  margin: 35px 0px 2px 4px;
+}
+
+.Border-box {
+  width: 90%;
+  padding: 10px;
+  margin: 5px 0px 6px 35px;
+  border: 3px solid black;
+  position: relative;
+}
+
+.tesi1-endbox {
+  width: 6%;
+  padding: 1px;
+  margin-left: 33px;
+  background-color: black;
+  border-radius: 10px;
+
+}
+
+.tesi2-endbox {
+  margin-left: 3px;
+}
+
+.tesi3-endbox {
+  margin-left: 4px;
+}
+
+.xtrabox {
+  width: 91%;
+  height: 36%;
+  padding: 1px;
+  margin: 0px;
+  background-color: white;
+  position: absolute;
+  top: -27px;
+  left: 9px;
+  font-size: 14px;
+}
+
+.xtrabox1 {
+  top: 86%;
+  left: 0%;
+}
+
+.Quick {
+  padding: 0px 0px 0px 134px;
+  width: 4%;
+  margin: 0px 0px 0px 0px;
+  position: relative;
+  top: -25px; left: 16px;
+}
+
+/* Testimonial end */
+
+
+/* contact us*/
+.body-contact {
+  background-color: blue;
+  width: 100%;
+}
+
+.heading-contact {
+  width: 30%;
+  padding: 1px;
+  margin-left: 35px;
+  font-size: 20px;
+}
+
+.contact-box {
+  width: 100%;
+  padding: 0px;
+  margin-top: 6px;
+}
+
+.contact-box1 {
+  width: 50%;
+  padding: 0px;
+
+}
+
+.contact-bgimg {
+  width: 50%;
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-size: 100% 97%;
+  background-image: url(../image/img-10.png);
+
+}
+
+.contact-bgimg2 {
+  width: 50%;
+  padding: 22px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url(../image/googleMapsTricksHero-1024x554.jpg);
+}
+
+
+.form1 {
+  margin: 7px 0px 0px 3px;
+  width: 90%;
+}
+
+.formname {
+  width: 90%;
+  margin: 2px 0px 1px 3px;
+}
+
+.email-bt {
+  width: 100%;
+  padding: 20px 40px;
+  border: 1px solid black;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+.massage-bt {
+  width: 100%;
+  height: 150px;
+  padding: 0px;
+  border-radius: 50px;
+  font-size: 20px;
+  margin: 0% 0% 0% 0%;
+}
+
+.button4 {
+  width: 32%;
+  background-color: orangered;
+  margin: 4px 0px 4px 27px;
+  border-radius: 30px;
+  padding: 15px 40px;
+  font-size: 15px;
+  color: white;
+}
+
+.button4:hover {
+  background-color: white;
+  color: black;
+}
+
+
+
+
+
+
+

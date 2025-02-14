@@ -1,0 +1,332 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+  border: none;
+}
+
+.display-inlineblock {
+  display: inline-block;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.border {
+  border: none;
+}
+
+.white-font {
+  color: white;
+}
+
+.black-font {
+  color: black;
+}
+
+.orange-font {
+  color: #f76d37;
+}
+
+.textleft {
+  text-align: left;
+}
+
+.textright {
+  text-align: right;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.bg-black {
+  background: black;
+}
+
+.bg-orange {
+  background-color: #f76d37;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: dashed;
+}
+
+a:hover {
+  color: #f76d37;
+  background-color: transparent;
+}
+
+.colorchange {
+  /*hover orange part*/
+  background-color: transparent;
+  text-decoration: dashed;
+}
+
+.colorchange:hover {
+  color: white;
+  background-color: #f76d37;
+}
+
+
+/* header part*/
+.header {
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.header1 {
+  width: 30%;
+  padding: 25px 35px;
+  margin: 0px 0px 0px 0px;
+}
+
+.header2 {
+  width: 41%;
+  margin: 0px 0px 0px 0px;
+  padding: 23px 0px;
+  display: inline-block;
+}
+
+.head-anchor {
+  width: auto;
+  margin: 0px 0px 0px 10px;
+  font-size: 18px;
+}
+
+.svg-size {
+  width: 20px;
+  background-color: transparent;
+  padding: 2px;
+  background-repeat: no-repeat;
+
+}
+
+.svg-size svg {
+  fill: white;
+  height: 25px;
+  width: 31px;
+  padding: 0px;
+  margin-top: 2px;
+
+}
+
+.svg {
+  color: white;
+}
+
+.svg:hover {
+  fill: #f76d37;
+  background-color: transparent;
+}
+
+.content {
+  /*body content*/
+  width: 72%;
+}
+
+.bodybox {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(../images/banner-bg.png);
+}
+
+
+.outstandingbox {
+  width: 53%;
+  font-size: 60px;
+  padding: 110px 0px 0px 65px;
+}
+
+.coffee_shop {
+  width: 70%;
+  font-size: 35px;
+  padding: 6px 0px 0px 65px;
+}
+
+.home-content {
+  width: 66%;
+  font-size: 16px;
+  padding: 5px 0px 0px 65px;
+}
+
+button {
+  /*Button learn more*/
+  width: 15%;
+  background-color: black;
+  margin: 11px 0px 5px 35px;
+  padding: 15px 40px;
+  font-size: 14px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+button:hover {
+  background-color: orangered;
+}
+
+.arrowboxes {
+  width: auto;
+  background-color: transparent;
+  margin: 0px 0px 19px 35px;
+  position: relative;
+  top: 31px;
+  left: 277px;
+  padding-top: 0%;
+}
+
+.arrowbox {
+  /*arrowboxes*/
+
+  width: 47px;
+  margin: 25px 0px 35px 35px;
+  background-color: white;
+  font-size: 31px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.arrowbox1 {
+  margin: 25px 0px 35px 16px;
+}
+
+/*Home page fiished*/
+/* about us */
+
+.aboutbox {
+  width: 50%;
+  margin-top: 35px;
+  padding: 90px 0px 60px 50px;
+  margin-left: 20px;
+
+}
+
+.aboutbox1 {
+  width: 50%;
+  margin: 35px 0px 10px 10px;
+  padding-top: 90px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.aboutbox2 {
+  width: 85%;
+  margin: 2px 0px 10px 10px;
+  font-weight: 200;
+}
+
+.aboutbox4 {
+  width: 30%;
+  margin-top: 35px;
+  padding: 80px 0px 0px 0px;
+}
+
+.button2 {
+  width: 35%;
+  background-color: black;
+  padding: 15px 40px;
+  font-size: 15px;
+  position: relative;
+  top: 32px;
+  left: -36px;
+}
+
+.button2:hover {
+  background-color: orangered;
+}
+
+
+/* about us  finished*/
+
+
+
+
+@media screen and (max-width: 426px) {
+
+  /*Home page */
+  .header1 {
+    padding: 21px 17px;
+
+  }
+
+  .header2 {
+    display: none;
+  }
+
+  .header2 {
+    width: 41%;
+    margin: 0px 0px 0px 0px;
+    padding: 23px 0px;
+    display: none;
+  }
+
+  .content {
+    /*body content*/
+    width: 100%;
+  }
+
+  .bodybox {
+    background-size: 100% 100%;
+
+  }
+
+  .outstandingbox {
+    margin: 35px 0px 0px 0px;
+    width: 80%;
+    font-size: 30px;
+    padding: 80px 0px 0px 22px;
+  }
+
+  .coffee_shop {
+    width: 90%;
+    font-size: 19px;
+    padding: 0px 0px 0px 22px;
+  }
+
+  .home-content {
+    width: 100%;
+    font-size: 14px;
+    padding: 6px 0px 0px 22px;
+  }
+
+  button {
+    /*Button learn more*/
+    width: 45%;
+    margin: 11px 0px 35px 0px;
+    padding: 15px 40px;
+
+  }
+
+  .arrowboxes {
+    margin: 35px 0px 35px 35px;
+    position: relative;
+    top: 45px;
+    left: -80px;
+    padding-top: 5%;
+  }
+
+  /*Home page fiished*/
+
+  .aboutbox {
+    width: 50%;
+    margin-top: 35px;
+    padding: 90px 0px 60px 50px;
+    margin-left: 20px;
+
+  }
+
+}
